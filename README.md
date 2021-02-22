@@ -16,5 +16,4 @@ Planning to add extra functionality.
 
 Current issues:
 
-Textboxes not centered
-Buttons cause a 404 error
+(I fixed everything in V2 release!)
