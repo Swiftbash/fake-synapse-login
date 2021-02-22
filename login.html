@@ -3,14 +3,15 @@
 <style>
 
 header {
-width: 100%;
-padding: 0;
-background-color: #3c3c3c;
+  width: 100%;
+  padding: 0;
+  background-color: #3c3c3c;
 }
 
 body {
-background-color: #333333;
-font-family: 'Bai Jamjuree', sans-serif;
+    background-color: #333333;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
 }
 
 button {
@@ -22,51 +23,53 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  width: 100%;
+  height: 7%;
 }
 
 h1 {
-color: #FFFFFF;
-text-align: center;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 h2 {
-color: #FFFFFF;
-text-align: center;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 h3 {
-color: #FFFFFF;
-text-align: center;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 <!--Used for the orange text on the header in the second line. Uncomment the div class in the header aswell to enable.<!-->
 .x {
-color: #ff6a00 ;
+    color: #ff6a00 ;
 }
 
 
 .loginpage {
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 input {
-color: #232323;
+    color: #232323;
 }
 
 a {
-color: #97c4d6
+    color: #97c4d6
 }
 
 <!--Font
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
 !-->
 
 </style>
 
 <!--Header Text, the reason I left the div class enabled is because disabling it breaks stuff<!-->
 <header>
-<h1>Sample Text<div class="X"></h1>
+<h3>Sample Text - Login<div class="X"></h3>
 
 </header>
 
@@ -82,13 +85,13 @@ color: #97c4d6
   <label for="fname">Username:</label>
   <input type="text" id="fname" name="fname"><br><br>
   <label for="lname">Password:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-</form> 
+  <input type="pwd" id="lname" name="lname"><br><br>
+</form>
 </div>
 
 <!--Fake links just like the software<!-->
-<a href="url">Lost your password?</a><br><br>
-<a href="url">Want to register with serial key?</a>
+<a href="lostpassword.html">Lost your password?</a><br><br>
+<a href="register.html">Want to register with serial key?</a>
 <br><br>
 
 <!--Fake login button<!-->
