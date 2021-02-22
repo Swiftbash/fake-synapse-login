@@ -1,0 +1,96 @@
+<!--CSS<!-->
+
+<style>
+
+header {
+width: 100%;
+padding: 0;
+background-color: #3c3c3c;
+}
+
+body {
+background-color: #333333;
+font-family: 'Bai Jamjuree', sans-serif;
+}
+
+button {
+  background-color: #3c3c3c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+h1 {
+color: #FFFFFF;
+text-align: center;
+}
+
+h2 {
+color: #FFFFFF;
+text-align: center;
+}
+
+h3 {
+color: #FFFFFF;
+text-align: center;
+}
+
+<!--Used for the orange text on the header in the second line. Uncomment the div class in the header aswell to enable.<!-->
+.x {
+color: #ff6a00 ;
+}
+
+
+.loginpage {
+color: #FFFFFF;
+}
+
+input {
+color: #232323;
+}
+
+a {
+color: #97c4d6
+}
+
+<!--Font
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet"> 
+!-->
+
+</style>
+
+<!--Header Text, the reason I left the div class enabled is because disabling it breaks stuff<!-->
+<header>
+<h1>Sample Text<div class="X"></h1>
+
+</header>
+
+<!--Body<!-->
+<body>
+
+<!--<h2>Please login to continue</h2><!-->
+
+
+<!--Fake form for testing Login screen<!-->
+<div class="loginpage">
+<form action="/action_page.php">
+  <label for="fname">Username:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Password:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+</form> 
+</div>
+
+<!--Fake links just like the software<!-->
+<a href="url">Lost your password?</a><br><br>
+<a href="url">Want to register with serial key?</a>
+<br><br>
+
+<!--Fake login button<!-->
+<button>Login</button>
+</body>
