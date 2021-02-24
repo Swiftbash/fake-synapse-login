@@ -20,4 +20,6 @@ Planning to add extra functionality.
 
 Current issues:
 
-(I fixed everything in V2 release!)
+Forgotten doctype (causes browsers to enable quirks mode)
+Register screen header is "Password Reset" instead of "Registration"
+
